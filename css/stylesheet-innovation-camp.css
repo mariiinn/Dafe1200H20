@@ -2,6 +2,18 @@ body {
 
 }
 
+h1 {
+  margin-left: 2vw;
+}
+
+.blueText {
+  text-decoration: underline blue;
+}
+
+.place-center {
+  text-align: center;
+}
+
 .navigasjonsbar {
   background-color: rgba(152,218,249,0.3);
 }
@@ -35,4 +47,6 @@ ul {
 .col-tall-60 {width: 60%;}
 .col-tall-70 {width: 70%;}
 .col-tall-100 {width: 100%;}
+
+.col-tall-95 {width: 95%;}
 }
