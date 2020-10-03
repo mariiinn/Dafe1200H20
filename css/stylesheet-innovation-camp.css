@@ -4,14 +4,12 @@ body {
 
 h1 {
   margin-left: 2vw;
+  font-family: candara;
+  color: white;
 }
 
-.blueText {
-  text-decoration: underline blue;
-}
-
-.place-center {
-  text-align: center;
+.blueLine {
+  text-decoration: underline #355787;
 }
 
 .navigasjonsbar {
@@ -29,6 +27,7 @@ ul {
 
 [class*="col-"] {
   float: left;
+  margin-left: 1vw;
   padding: 1vw;
   border: 1px solid grey;
 }
