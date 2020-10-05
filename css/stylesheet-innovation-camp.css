@@ -12,17 +12,39 @@ h1 {
   text-decoration: underline #355787;
 }
 
-.navigasjonsbar {
-  background-color: rgba(152,218,249,0.3);
+.navigasjonsbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 }
 
-
-ul {
+ul.menu {
+  text-decoration: none;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding: 10px;
+  text-align: right;
+  font-size: 25px;
+  font-family: candara;
+
 }
 
+li {
+  display: inline;
+  text-align: right;
+  padding: 15px;
+}
+
+a:link{
+  color: blue;
+}
+
+a:visited{
+  colour: blue;
+}
+
+a:hover{
+  text-decoration: underline;
+}
 
 
 [class*="col-"] {
