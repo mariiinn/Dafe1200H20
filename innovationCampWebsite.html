@@ -9,21 +9,20 @@
 
 <body>
 
-<div class="navigasjonsbar">
+<div class="navigasjonsbar" class="col-tall-95" style="background: #dcdcdc;">
   <img src="images/Stay-logo.png" alt="Logo" style="float:left; width:25%;">
 
-  <ul>
-    <li><a href="" ></a></li>
-    <li><a href="" ></a></li>
-    <li><a href="" ></a></li>
-    <li><a href="" ></a></li>
+  <ul class="menu" style="vertical-align:right;">
+    <li><a href="#app">App</a></li>
+    <li><a href="#challenge">Challenge</a></li>
+    <li><a href="#solution">Solution</a></li>
   </ul>
   <!-- må legge til navigeringsknapper med samme navn som overskriftene under,
       legge til float, og style det mer -->
 </div>
 
 <!--Blokk under navigeringsbaren.Bilde på høyre side. Slagord på venstre? -->
-<div class="col-tall-95" style="background: #8F8E94;">
+<div id=app class="col-tall-95" style="background: #8F8E94;">
   <img src="images/phone.jpg" alt="App example on smartphone"
     style="float:right; width:40%; vertical-align:middle; margin:0vw 4vw">
 
@@ -47,8 +46,8 @@
 </div>
 
 <!-- Challenge blokk. Beskriver problemet vi løser.-->
-<div class="col-tall-95">
-  <h2> Challenge </h2>
+<div class="col-tall-95" style="background: #dcdcdc;">
+  <h2 id=challenge> Challenge </h2>
   <p>
     We were looking to solve the challenge of children not returning
     to school, either because of covid 19 or for other reasons. The first
@@ -61,10 +60,10 @@
 </div>
 
 <!-- Solution blokk. Beskriver løsningen på problemet.-->
-<div class="col-tall-95">
+<div class="col-tall-95" style="background: #dcdcdc;">
   <img src="images/visual.jpg" alt="Circle"
     style="float:right; width:40%; vertical-align:middle; margin:0vw 4vw">
-  <h2> <span style="color: blue">|</span> Solution </h2>
+  <h2 id=solution> <span style="color: blue">|</span> Solution </h2>
   <p>
     We have choosen Uganda as a characteristic country where the soulution
     will work. (There is
