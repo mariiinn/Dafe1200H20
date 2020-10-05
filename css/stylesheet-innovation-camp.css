@@ -15,7 +15,9 @@ h1 {
 .navigasjonsbar{
   overflow: hidden;
   position: fixed;
+  margin-left: 1%;
   top: 0;
+  width: 96%;
 }
 
 ul.menu {
@@ -34,18 +36,13 @@ li {
   padding: 15px;
 }
 
-a:link{
-  color: blue;
+li a{
+  text-decoration: none;
 }
 
-a:visited{
-  colour: blue;
-}
-
-a:hover{
+li a:hover{
   text-decoration: underline;
 }
-
 
 [class*="col-"] {
   float: left;
