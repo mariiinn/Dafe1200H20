@@ -15,9 +15,9 @@ h1 {
 .navigasjonsbar{
   overflow: hidden;
   position: fixed;
-  margin-left: 1vw;
   top: 0;
-  width: 96%;
+  margin-left: 1%;
+  width: 95%;
 }
 
 ul.menu {
