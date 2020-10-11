@@ -1,5 +1,5 @@
 body {
-
+  background: #dcdcdc;
 }
 
 h1 {
@@ -21,9 +21,7 @@ h2, p {
   /*overflow: hidden;*/
   position: fixed;
   top: 0;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  width: 95.8%;
+  width: 100%;
   /*margin-left: 1%;
   width: 95%;
   */
@@ -54,13 +52,12 @@ li a:hover{
 
 [class*="col-"] {
   float: left;
-  margin-left: 1vw;
   padding: 1vw;
   /*border: 1px solid grey;*/
 }
 
-.col-small-95 {width: 95%;}
+.col-small-100 {width: 100%;}
 
 @media only screen and (min-width: 1000px) {
-.col-tall-95 {width: 95%;}
+.col-tall-100 {width: 100%;}
 }
