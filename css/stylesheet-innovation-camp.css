@@ -8,16 +8,25 @@ h1 {
   color: white;
 }
 
+h2, p {
+  margin-left: 2%;
+}
+
 .blueLine {
   text-decoration: underline #355787;
 }
 
 .navigasjonsbar{
-  overflow: hidden;
+  height: 90px;
+  /*overflow: hidden;*/
   position: fixed;
   top: 0;
-  margin-left: 1%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: 95.8%;
+  /*margin-left: 1%;
   width: 95%;
+  */
 }
 
 ul.menu {
