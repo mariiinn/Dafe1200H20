@@ -1,9 +1,10 @@
 body {
   background: #dcdcdc;
-  overflow-x: hidden;
+  overflow-x: hidden; /* Ikke scroll horisontalt */
 }
 
 h1 {
+  font-size: 1em; /* Tekststørrelse width < 1000px */
   margin-left: 2%;
   font-family: candara;
   color: white;
@@ -11,6 +12,7 @@ h1 {
 
 h2, p {
   margin-left: 2%;
+  margin-right: 2%;
 }
 
 .blueLine {
@@ -19,14 +21,10 @@ h2, p {
 
 .navigasjonsbar{
   height: 90px;
-  /*overflow: hidden;*/
   position: fixed;
   top: 0;
   right: 0;
   width: 100%;
-  /*margin-left: 1%;
-  width: 95%;
-  */
 }
 
 ul.menu {
@@ -55,11 +53,13 @@ li a:hover{
 [class*="col-"] {
   float: left;
   padding: 1vw;
-  /*border: 1px solid grey;*/
+  margin-left: -10px;
 }
 
-.col-small-100 {width: 100%;}
+.col-small {width: 101%;}
 
 @media only screen and (min-width: 1000px) {
-.col-tall-100 {width: 100%;}
+.col-tall {width: 101%;}
+
+  h1 {font-size: 2em;}
 }
